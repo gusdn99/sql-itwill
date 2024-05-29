@@ -14,6 +14,9 @@ values ('테스트', 'Servlet/JSP 테스트', 'admin');
 insert into posts (title, content, author)
 values ('test', 'Servlet/JSP 테스트', 'admin');
 
+insert into posts (title, content, author)
+values ('화요일', 'MVC', 'guest');
+
 commit;
 
-select * from posts;
+select * from posts order by id desc;
