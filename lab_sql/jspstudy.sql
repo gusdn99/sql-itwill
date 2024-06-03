@@ -33,6 +33,8 @@ create table users (
     constraint users_points_ck check (points >= 0)
 );
 
+commit;
+
 select * from users order by id desc;
 
 
