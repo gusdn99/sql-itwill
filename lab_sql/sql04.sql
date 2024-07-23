@@ -95,5 +95,3 @@ select deptno, job, count(*) as COUNT, round(avg(sal), 2) as AVG_SAL from emp gr
 select to_char(hiredate, 'YYYY') as YEAR, deptno, count(*) as COUNT from emp
 group by to_char(hiredate, 'YYYY'), deptno having to_char(hiredate, 'YYYY') != '1980' and count(*) >= 2
 order by to_char(hiredate, 'YYYY'), deptno; -- order by YEAR, deptno; (별명 사용)
-
- 

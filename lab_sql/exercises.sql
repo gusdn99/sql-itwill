@@ -18,7 +18,6 @@
 select e.last_name, d.department_name from employees e
     join departments d on e.department_id = d.department_id;
 
-   
 -- 2. 직원의 last_name과 부서 이름을 검색. 부서 번호가 없는 직원도 출력. (left outer join)
 select e.last_name, d.department_name from employees e
     left join departments d on e.department_id = d.department_id;
@@ -132,8 +131,3 @@ select c.country_name, j.job_title, sum(e.salary) as SUM_SAL from employees e
     join countries c on l.country_id = c.country_id
 where c.country_id = 'US'  -- c.country_name = 'United States of America'
 group by c.country_name, j.job_title having sum(e.salary) >= 50000;
-
-
-
-
-

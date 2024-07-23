@@ -198,6 +198,3 @@ select e1.deptno, d.dname, e1.empno  as "사번", e1.ename as "이름", e1.mgr a
 from dept d, emp e1, emp e2, salgrade s
 where d.deptno = e1.deptno and e1.mgr = e2.empno and e1.sal between s.losal and s.hisal and e1.sal >=  3000
 order by e1.deptno, e1.empno;
-
-
-

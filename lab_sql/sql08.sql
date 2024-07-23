@@ -47,4 +47,3 @@ describe students;
 -- modify는 제약조건의 내용을 변경하지 못함.
 -- 제약조건 삭제(alter table ... drop constraint ...)
 -- 제약조건 추가 (alter table ... add constraint ...)
-

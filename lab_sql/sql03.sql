@@ -82,9 +82,3 @@
  -- 30번 부서에 근무하고, 업무이름에 'SALES'가 포함되어 있는 직원들의 사번, 부서번호, 이름, 업무, 급여, 수당을 출력. 사번 오름차순 정렬.
  select empno, deptno, ename, job, sal, comm from emp where deptno = 30 and job like '%SALES%' order by empno;
  
- 
- 
- 
- 
- 
- 

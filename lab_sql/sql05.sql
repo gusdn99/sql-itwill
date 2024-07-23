@@ -50,6 +50,4 @@ select ename, sal, deptno from emp where deptno =
 -- Ex. CHICAGO에서 근무하는 직원들의 이름, 급여, 부서 번호를 검색.
 select ename, sal, deptno from emp where deptno =
     (select deptno from dept where loc = 'CHICAGO'); -- CHICAGO deptno 30
-
-
-
+    

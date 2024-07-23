@@ -66,4 +66,3 @@
  -- 중복되지 않는 부서번호, 업무 출력. (1)부서번호 오름차순, (2) 업무 오름차순
  select distinct deptno, job from emp order by deptno, job; -- distinct는 한 번만 사용!
  
- 

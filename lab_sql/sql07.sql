@@ -220,5 +220,3 @@ select table_name from user_tables;
 -- 오라클은 제약조건 관리하기 위한 테이블을 가지고 있음.
 select * from user_constraints;
 select constraint_name from user_constraints;
-  
-  
