@@ -68,5 +68,3 @@ delete from comments where id = 2;
 commit;
 
 select count(*) from comments where post_id = 2;
-
-
